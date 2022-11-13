@@ -1,31 +1,64 @@
+
+
 #title
 {
-    background-color: #705D97;
-    color: white;
+    background-color: #c9d0cf;
+    color: #1c3c34;
     font-size: 40px;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Times New Roman', Times, serif
     /*display: flex;*/
-    border-radius: 5%;
+   /* border-radius: 5%;*/
 }
+
+#separator
+{
+    background-color: #1c3c34;
+    height: 2px;
+}
+
+#date_item
+{
+    font-size: 10px;
+}
+
+.legacy-form-row
+{
+    border: 0px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    /*
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    
+}
+
+.radio-label {
+    margin-right: 25px;
+}
+
+  
 
 .item {
     font-size: 40px;
     border: 2px;
     border-color: red;
-    height: 200px;
-    color: #2B2031;
+    height: 80px;
+    color: #1c3c34;
     padding-left: 10px;
     padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .subApp {
-    background-color: #ffffff;
+    background-color: #e1ebea;
     display: flex;
     flex-direction: column;
-    text-align: start;
-    
     
 }
