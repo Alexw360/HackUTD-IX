@@ -1,0 +1,31 @@
+#title
+{
+    background-color: #705D97;
+    color: white;
+    font-size: 40px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*display: flex;*/
+    border-radius: 5%;
+}
+
+.item {
+    font-size: 40px;
+    border: 2px;
+    border-color: red;
+    height: 200px;
+    color: #2B2031;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.subApp {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    
+    
+}
