@@ -7,7 +7,7 @@ import SearchBar from "./component/SearchBar";
 import Register from './component/register';
 import logo from './logo.png';
 import './App.css';
-//import PlaceData from "./Data.json";
+import PlaceData from "./Data.json";
   
 class App extends Component{
   render() {
@@ -32,7 +32,7 @@ class App extends Component{
 
             </ul>
             <div id="separator"></div>
-            <SearchBar placeholder="Enter a place name..."/>
+            <SearchBar placeholder="Enter a place name..." data={PlaceData}/>
            <Routes>
                  <Route exact path='/home' element={< Home />}></Route>
                  <Route exact path='/browse' element={< Browse />}></Route>
