@@ -3,11 +3,13 @@ import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import Browse from './component/browse';
 import Create from './component/create';
 import Home from './component/home';
+import SearchBar from "./component/SearchBar";
 import Register from './component/register';
 import logo from './logo.png';
 import './App.css';
+import PlaceData from "./Data.json";
   
-class App extends Component {
+class App extends Component{
   render() {
     return (
        <Router>
@@ -17,7 +19,7 @@ class App extends Component {
             <ul className="App-header">
               <img id="logo" src={logo} alt="logo"></img>
               <li>
-                <Link to="/home">Home</Link>
+                <Link to="/">Home</Link>
               </li>
               
               <li>
@@ -30,7 +32,7 @@ class App extends Component {
 
             </ul>
             <div id="separator"></div>
-
+            <SearchBar placeholder="Enter a place name..." data={PlaceData}/>
            <Routes>
                  <Route exact path='/home' element={< Home />}></Route>
                  <Route exact path='/browse' element={< Browse />}></Route>
