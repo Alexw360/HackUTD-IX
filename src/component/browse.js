@@ -1,13 +1,13 @@
 import React from "react";
   
-const Search = () => {
+const Browse = () => {
   return (
     <div>
       <h1>
-        This is the search page
+        This is the Browse page
       </h1>
     </div>
   );
 };
   
-export default Search;
+export default Browse;
