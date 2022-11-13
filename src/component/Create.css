@@ -2,7 +2,7 @@
 
 #title
 {
-    background-color: #c9d0cf;
+    background-color: #A4ADD3;
     color: #1c3c34;
     font-size: 40px;
     height: 100px;
@@ -47,18 +47,34 @@
     font-size: 40px;
     border: 2px;
     border-color: red;
-    height: 80px;
+    height: 100px;
     color: #1c3c34;
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    
 }
 
 .subApp {
-    background-color: #e1ebea;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  
+    font-family: Arial;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #705D97;
+    font-size: small;
+  }

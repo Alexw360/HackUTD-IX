@@ -8,16 +8,16 @@ function Create(){
     <div id="title" ><strong>Create Event</strong></div>
     <div class="subApp">
         
-        <div class="item"><strong>Day</strong></div>
+        <div class="item">Day</div>
         <div id="separator"></div>
 
-        <div class="item"><strong>Time</strong></div>
+        <div class="item">Time</div>
         <div id="separator"></div>
 
-        <div class="item"><strong>Group Size</strong></div>
+        <div class="item">Group Size</div>
         <div id="separator"></div>
 
-        <div class="item"><strong>Location</strong></div>
+        <div class="item">Locations</div>
 
     </div>
     <button>Submit</button>
