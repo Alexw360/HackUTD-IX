@@ -1,13 +1,13 @@
 import React from "react";
   
-const Search = () => {
+const Register = () => {
   return (
     <div>
       <h1>
-        This is the search page
+        This is the register page
       </h1>
     </div>
   );
 };
   
-export default Search;
+export default Register;
