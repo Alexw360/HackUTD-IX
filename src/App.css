@@ -8,23 +8,55 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+/* CSS */
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+#separator
+{
+    background-color: #1c3c34;
+    height: 2px;
+}
+
+
+#logo
+{
+  scale: 10%;
+  padding-right: 100px;
 }
 
 .App-header {
-  background-color: #32243D;
-  height: 30px;
+  background-color: #ffffff;
+  height: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
 
   justify-content: space-around;
   font-size: calc(10px + 2vmin);
-  color: white;
   margin: 0px;
+  margin-left: -500px;
   
   /*margin-bottom: 1px;*/
 }
@@ -43,6 +75,10 @@ a:visited{
   text-decoration: none;
 }
 
+a:-webkit-any-link {
+  color: black;
+}
+
 .App-link {
   color: #61dafb;
   text-decoration: none;
@@ -51,6 +87,12 @@ a:visited{
 .Link
 {
   text-decoration: none;
+  color: black;
+}
+
+#Link
+{
+  color: black;
 }
 
 @keyframes App-logo-spin {

@@ -3,6 +3,8 @@ import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import Browse from './component/browse';
 import Create from './component/create';
 import Home from './component/home';
+import Register from './component/register';
+import logo from './logo.png';
 import './App.css';
   
 class App extends Component {
@@ -10,36 +12,30 @@ class App extends Component {
     return (
        <Router>
            <div className="App">
+
+            {/*Header*/}
             <ul className="App-header">
-
-              <li></li>
-              
-              <li>
-                <Link to="/browse">Browse</Link>
-              </li>
-              
-              <li>
-                <Link to="/create">Create</Link>
-              </li>
-
-            </ul>
-           
-              <ul>
-                 <Route exact path='/browse' element={< Browse />}></Route>
+              <img id="logo" src={logo} alt="logo"></img>
               <li>
                 <Link to="/home">Home</Link>
               </li>
-              <li>
-                <Link to="/browse">Browse</Link>
-              </li>
+              
               <li>
                 <Link to="/create">Create</Link>
               </li>
+
+              <li>
+                <Link to="/register" class="button-34" role="button">Get Started</Link>
+              </li>
+
             </ul>
+            <div id="separator"></div>
+
            <Routes>
                  <Route exact path='/home' element={< Home />}></Route>
-                 <Route exact path='/search' element={< Search />}></Route>
+                 <Route exact path='/browse' element={< Browse />}></Route>
                  <Route exact path='/create' element={< Create />}></Route>
+                 <Route exact path='/register' element={< Register />}></Route>
           </Routes>
           </div>
        </Router>
